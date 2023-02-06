@@ -1,5 +1,5 @@
 <template>
-  <div class="guns-body">
+  <div class="xxw-body">
     <!-- 搜索表单 -->
     <div class="block-interval">
       <a-card :bordered="false">
@@ -90,7 +90,7 @@
                 <a @click="openEdit(record, '1')">修改</a>
                 <a-divider type="vertical" />
                 <a-popconfirm title="确定要删除此机构吗？" @confirm="remove(record)">
-                  <a class="guns-text-danger">删除</a>
+                  <a class="xxw-text-danger">删除</a>
                 </a-popconfirm>
               </a-space>
             </template>
@@ -203,7 +203,7 @@
   /**
    * 打开编辑弹窗
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/5/20 17:54
    */
   const openEdit = async (row: any, flag: string) => {
@@ -216,7 +216,7 @@
   /**
    * 打开编辑弹窗
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/5/20 17:54
    */
   const openAdd = () => {
@@ -229,7 +229,7 @@
   /**
    * 删除单个
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/5/20 17:54
    */
   const remove = async (row: any) => {

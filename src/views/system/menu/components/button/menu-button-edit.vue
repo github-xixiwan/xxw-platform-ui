@@ -96,7 +96,7 @@
   /**
    * 保存和编辑
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date ji2021/4/14 11:00
    */
   const save = async () => {
@@ -142,7 +142,7 @@
    * 更新编辑菜单界面的弹框是否显示
    *
    * @param value true-显示，false-隐藏
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/7 12:00
    */
   const updateVisible = (value: boolean) => {

@@ -162,7 +162,7 @@
   /**
    * 菜单查询权限数据
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/10 21:20
    */
   const loadAuthData = async () => {
@@ -246,7 +246,7 @@
 
   /**
    * 子菜单选中
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-09-30 10:10:05
    * @param {*} event 选中的结果
    * @param {*} record 当前行数据

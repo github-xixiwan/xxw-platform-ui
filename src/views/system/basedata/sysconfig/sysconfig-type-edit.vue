@@ -92,7 +92,7 @@
   /**
    * 保存或编辑
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/9 13:42
    */
   const save = () => {
@@ -125,7 +125,7 @@
    * 更新编辑菜单界面的弹框是否显示
    *
    * @param value true-显示，false-隐藏
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/7 12:00
    */
   const updateVisible = (value: boolean) => {

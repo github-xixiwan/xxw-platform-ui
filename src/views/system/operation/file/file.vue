@@ -1,5 +1,5 @@
 <template>
-  <div class="guns-body">
+  <div class="xxw-body">
     <!-- 搜索表单 -->
     <div class="block-interval">
       <a-card :bordered="false">
@@ -112,7 +112,7 @@
                 <a @click="detail(record)">详情</a>
                 <a-divider type="vertical" />
                 <a-popconfirm title="确定要删除此文件吗？" @confirm="remove(record)">
-                  <a class="guns-text-danger">删除</a>
+                  <a class="xxw-text-danger">删除</a>
                 </a-popconfirm>
               </a-space>
             </template>
@@ -228,7 +228,7 @@
 
   /**
    * 点击查询
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-10-12 09:38:18
    */
   const reload = () => {
@@ -240,7 +240,7 @@
 
   /**
    * 点击重置
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-10-12 09:38:29
    */
   const reset = () => {
@@ -252,7 +252,7 @@
   /**
    * 删除单个
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/2 17:03
    */
   const remove = async (row: any) => {
@@ -264,7 +264,7 @@
   /**
    * 下载文件
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/12 22:11
    */
   const download = (row: any) => {
@@ -278,7 +278,7 @@
   /**
    * 打开详情界面
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/12 22:29
    */
   const detail = (row: any) => {
@@ -289,7 +289,7 @@
   /**
    * 控制上传到数据库的图片不能超过1M
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/12 22:29
    */
   const beforeUpload = (file: any) => {
@@ -303,7 +303,7 @@
   /**
    * 上传成功的回调
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/2 17:03
    */
   const afterUpload = ({ file }) => {

@@ -1,9 +1,9 @@
 <!--
- * @Author: nxy
+ * @Author: liaoxiting
  * @Date: 2022-10-12 17:23:45
 -->
 <template>
-  <div class="guns-body">
+  <div class="xxw-body">
     <a-row class="power-header" v-if="resourceBizType == 2">
       <a-card :bordered="false" style="width: 100%">
         <a-tabs v-model:activeKey="state.activeKey" animated>

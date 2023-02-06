@@ -5,14 +5,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 业务拓展-具体数据api
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2022/03/30 09:53
  */
 export class SysExpandDataApi {
   /**
    * 删除
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/03/30 09:53
    */
   static delete(params: SysExpandDataRequest) {
@@ -22,7 +22,7 @@ export class SysExpandDataApi {
   /**
    * 详情
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/03/30 09:53
    */
   static detail(params: SysExpandDataRequest) {
@@ -32,7 +32,7 @@ export class SysExpandDataApi {
   /**
    * 分页获取列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/5/8 20:36
    */
   static findPage(params: SysExpandDataRequest) {

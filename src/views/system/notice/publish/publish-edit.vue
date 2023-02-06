@@ -132,7 +132,7 @@
   /**
    * 获取通知的用户列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/14 20:23
    */
   const getUserList = () => {
@@ -150,7 +150,7 @@
   /**
    * 选中人员时的监听
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/14 20:23
    */
   const handleChange = (arr: string[]) => {
@@ -160,7 +160,7 @@
   /**
    * 发布通知
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/14 20:24
    */
   const save = async () => {
@@ -197,7 +197,7 @@
   /**
    * 更新编辑界面弹框是否显示
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/14 20:24
    */
   const updateVisible = (value: boolean) => {

@@ -72,7 +72,7 @@
   /**
    * 打开绑定资源的窗口，业务类型（1：菜单，2：菜单下按钮）
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/10 15:25
    */
   const openWindow = (title: string, type: number, id: string, flag: boolean) => {
@@ -89,7 +89,7 @@
   /**
    * 加载资源列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/8 23:34
    */
   const loadMenuResource = async () => {
@@ -123,7 +123,7 @@
   /**
    * 处理选中组的事件
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/8 23:35
    */
   const checkedGroup = async (event: any, record: any) => {
@@ -155,7 +155,7 @@
   /**
    * 处理选中的节点数据
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/8 23:35
    */
   const checkedItem = (checkedValue: any, record: any) => {
@@ -197,7 +197,7 @@
   /**
    * 更新按钮管理界面的弹框是否显示
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/8 23:34
    */
   const updateVisible = (value: boolean) => {

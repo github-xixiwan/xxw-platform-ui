@@ -1,16 +1,16 @@
 /**
  * websocket类，进行websocket交互
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2021/6/11 14:22
  */
-export class GunsWebsocket {
+export class XxwWebsocket {
 
   /**
    * 构造函数
    *
    * @param {string} webSocketUrl    连接url
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/11 14:22
    */
   constructor(webSocketUrl) {
@@ -37,7 +37,7 @@ export class GunsWebsocket {
    * 第2点：initWebSocket().then(()={ //then里边接收到socketId，并调用后端接口告诉后端开始返回给socket哪些数据 })
    *
    * @param messageReceiveCallback 此参数传递接收到后端websocket的数据的回调函数
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/11 14:47
    */
   initWebSocket(messageReceiveCallback) {
@@ -90,7 +90,7 @@ export class GunsWebsocket {
   /**
    * 关闭连接
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/25 15:12
    */
   close() {

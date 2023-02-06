@@ -18,7 +18,7 @@ export const useNoticeStore = defineStore({
     /**
      * 添加未读的系统消息
      *
-     * @author fengshuonan
+     * @author liaoxiting
      * @date 2021/6/12 19:20
      */
     addNotice(notice: any) {
@@ -28,7 +28,7 @@ export const useNoticeStore = defineStore({
     /**
      * 设置未读消息
      *
-     * @author fengshuonan
+     * @author liaoxiting
      * @date 2021/6/12 19:20
      */
     setNotice(noticeList: any) {
@@ -38,7 +38,7 @@ export const useNoticeStore = defineStore({
     /**
      * 删除消息
      *
-     * @author fengshuonan
+     * @author liaoxiting
      * @date 2021/6/12 19:20
      */
     removeMessage(messageId: string) {

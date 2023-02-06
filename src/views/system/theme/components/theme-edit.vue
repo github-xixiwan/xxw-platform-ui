@@ -132,7 +132,7 @@
   /**
    * 保存和修改主题
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/23 14:10:13
    */
   const save = () => {
@@ -174,7 +174,7 @@
   /**
    * 更新编辑界面弹框是否显示
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/14 20:24
    */
   const updateVisible = (value: boolean) => {
@@ -185,7 +185,7 @@
    * 点击选择模板时，查询系统模板详情
    *
    * @param value 模板id
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/29 10:33:06
    */
   const getThemeAttributes = async (value) => {
@@ -197,7 +197,7 @@
   /**
    * 处理编辑表单数据
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/31 16:31:22
    */
   const formPreProcess = () => {
@@ -223,7 +223,7 @@
   /**
    * 计算必填校验规则
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/1/1 19:53
    */
   const calcRules = () => {
@@ -252,7 +252,7 @@
   /**
    * 设置临时文件数组赋空
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/1/1 21:28
    */
   const calcTemplateAttr = () => {
@@ -269,7 +269,7 @@
    * 加载动态表单的值
    *
    * @param data 当前主题的详情记录
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/1/1 21:28
    */
   const loadFormValues = async (data: any) => {

@@ -2,20 +2,20 @@
  * 系统信息
  */
 export interface SystemInfo {
-  gunsMgrName: string;
-  gunsMgrLoginBackgroundImg: string;
-  gunsMgrLogo: string;
-  gunsMgrFavicon: string;
-  gunsMgrFooterText: string;
-  gunsMgrBeiNo: string;
-  gunsMgrBeiUrl: string;
+  xxwMgrName: string;
+  xxwMgrLoginBackgroundImg: string;
+  xxwMgrLogo: string;
+  xxwMgrFavicon: string;
+  xxwMgrFooterText: string;
+  xxwMgrBeiNo: string;
+  xxwMgrBeiUrl: string;
   otherConfigs: {};
 }
 
 /**
  * 服务器相关信息
  *
- * @author yxx
+ * @author liaoxiting
  * @date 2022-05-13 13:42
  */
 export interface SystemHardwareCalculator {

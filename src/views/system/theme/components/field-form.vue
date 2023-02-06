@@ -80,7 +80,7 @@
   /**
    * 属性长度是否禁用，当点击文件类型时禁用
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/1/1 14:53
    */
   const showFieldLength = computed(() => {

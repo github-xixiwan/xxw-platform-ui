@@ -150,31 +150,31 @@ export interface DefaultTheme {
   /**
    * 平台名称
    */
-  gunsMgrName?: string;
+  xxwMgrName?: string;
   /**
    * 登录页背景图片
    */
-  gunsMgrLoginBackgroundImg?: string;
+  xxwMgrLoginBackgroundImg?: string;
   /**
    * 平台LOGO
    */
-  gunsMgrLogo?: string;
+  xxwMgrLogo?: string;
   /**
    * 浏览器Icon
    */
-  gunsMgrFavicon?: string;
+  xxwMgrFavicon?: string;
   /**
    * 页脚文字
    */
-  gunsMgrFooterText?: string;
+  xxwMgrFooterText?: string;
   /**
    * 备案号
    */
-  gunsMgrBeiNo?: string;
+  xxwMgrBeiNo?: string;
   /**
    * 备案号跳转链接
    */
-  gunsMgrBeiUrl?: string;
+  xxwMgrBeiUrl?: string;
   /**
    * 其他的主题配置
    */

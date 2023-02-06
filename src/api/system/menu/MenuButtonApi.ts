@@ -3,7 +3,7 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 菜单按钮管理api
  *
- * @author jiawei
+ * @author liaoxiting
  * @date 2021/4/13 16:06
  */
 export class MenuButtonApi {
@@ -11,7 +11,7 @@ export class MenuButtonApi {
    * 获取分页数据
    *
    * @param {String} params.menuId - 菜单id
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static findPage(params) {
@@ -21,7 +21,7 @@ export class MenuButtonApi {
   /**
    * 获取菜单按钮列表
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/13 16:07
    */
   static getMenuButtonList(params) {
@@ -31,7 +31,7 @@ export class MenuButtonApi {
   /**
    * 新增菜单按钮
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/13 16:07
    */
   static addMenuButton(params) {
@@ -41,7 +41,7 @@ export class MenuButtonApi {
   /**
    * 添加系统菜单按钮-默认按钮
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/13 16:07
    */
   static addDefaultMenuButton(params) {
@@ -54,7 +54,7 @@ export class MenuButtonApi {
   /**
    * 修改菜单按钮
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/13 16:07
    */
   static editMenuButton(params) {
@@ -64,7 +64,7 @@ export class MenuButtonApi {
   /**
    * 删除菜单按钮
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/13 16:07
    */
   static deleteMenuButton(params) {
@@ -74,7 +74,7 @@ export class MenuButtonApi {
   /**
    * 批量删除菜单按钮
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/13 16:07
    */
   static batchDeleteMenuButton(params) {

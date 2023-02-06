@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 应用api
  *
- * @author luojie
+ * @author liaoxiting
  * @date 2021/4/13 09:52
  */
 export class SysTimerApi {
   /**
    * 获取定时任务列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/12 22:25
    */
   static findTimerPage(params) {
@@ -20,7 +20,7 @@ export class SysTimerApi {
   /**
    * 新增
    *
-   * @author luojie
+   * @author liaoxiting
    * @date 2021/4/13 09:52
    */
   static add(params) {
@@ -30,7 +30,7 @@ export class SysTimerApi {
   /**
    * 查看定时任务详情
    *
-   * @author luojie
+   * @author liaoxiting
    * @date 2021/4/13 09:52
    */
   static detail(params) {
@@ -40,7 +40,7 @@ export class SysTimerApi {
   /**
    * 编辑
    *
-   * @author luojie
+   * @author liaoxiting
    * @date 2021/4/13 09:52
    */
   static edit(params) {
@@ -50,7 +50,7 @@ export class SysTimerApi {
   /**
    * 停止任务
    *
-   * @author luojie
+   * @author liaoxiting
    * @date 2021/4/13 09:52
    */
   static stop(params) {
@@ -60,7 +60,7 @@ export class SysTimerApi {
   /**
    * 启动任务
    *
-   * @author luojie
+   * @author liaoxiting
    * @date 2021/4/13 09:52
    */
   static start(params) {
@@ -70,7 +70,7 @@ export class SysTimerApi {
   /**
    * 删除单个任务
    *
-   * @author luojie
+   * @author liaoxiting
    * @date 2021/4/13 09:52
    */
   static delete(params) {
@@ -80,7 +80,7 @@ export class SysTimerApi {
   /**
    * 获取定时任务执行类列表
    *
-   * @author luojie
+   * @author liaoxiting
    * @date 2021/4/13 09:52
    */
   static getActionClasses() {

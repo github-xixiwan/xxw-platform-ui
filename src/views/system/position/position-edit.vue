@@ -68,7 +68,7 @@
   /**
    * 更新编辑界面弹框是否显示
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/14 20:24
    */
   const updateVisible = (value: boolean) => {
@@ -78,7 +78,7 @@
   /**
    * 保存和编辑职务
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/8 13:33
    */
   const save = () => {

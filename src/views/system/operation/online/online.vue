@@ -1,5 +1,5 @@
 <template>
-  <div class="guns-body">
+  <div class="xxw-body">
     <!-- 搜索表单 -->
     <div class="block-interval">
       <a-card :bordered="false">
@@ -95,7 +95,7 @@
 
   /**
    * 点击查询
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-10-12 09:38:18
    */
   const reload = () => {
@@ -104,7 +104,7 @@
 
   /**
    * 点击重置
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-10-12 09:38:29
    */
   const reset = () => {
@@ -115,7 +115,7 @@
   /**
    * 踢下线
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/13 14:47
    */
   const kickOff = async (row: any) => {

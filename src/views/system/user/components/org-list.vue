@@ -100,7 +100,7 @@
   /**
    * 打开新增弹窗
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/2 17:03
    */
   const openAdd = () => {
@@ -112,7 +112,7 @@
   /**
    * 打开编辑弹窗
    *
-   * @author fengshuonane
+   * @author liaoxitinge
    * @date 2021/4/2 17:03
    */
   const openEdit = () => {
@@ -125,7 +125,7 @@
   /**
    * 删除组织机构
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/12 14:22
    */
   const deleteOrg = async () => {

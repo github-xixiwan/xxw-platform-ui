@@ -38,7 +38,7 @@
   /**
    * 获取角色信息
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/7 16:54
    */
   const query = async () => {
@@ -69,7 +69,7 @@
   /**
    * 保存角色信息
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/7 16:57
    */
   const save = async () => {

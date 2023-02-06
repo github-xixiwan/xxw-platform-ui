@@ -12,14 +12,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 系统配置api
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2021/4/9 11:56
  */
 export class SysConfigApi {
   /**
    * 获取系统配置类型的分页
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static findConfigGroupPage(params: DictRequest) {
@@ -29,7 +29,7 @@ export class SysConfigApi {
   /**
    * 获取系统配置分页数据
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static findConfigPage(params: SysConfigParam) {
@@ -39,7 +39,7 @@ export class SysConfigApi {
   /**
    * 获取系统配置类型的字典的详情（新增系统配置类型界面用）
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/9 12:05
    */
   static getConfigDictTypeDetail(params?: DictTypeRequest) {
@@ -57,7 +57,7 @@ export class SysConfigApi {
    * @param {string}  params.dictTypeCode    字典类型编码
    * @param {string}  params.dictTypeName    字典类型名称
    * @param {string}  params.dictTypeId      字典类型id
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/9 12:05
    */
   static addConfigType(params: DictRequest) {
@@ -68,7 +68,7 @@ export class SysConfigApi {
    * 删除系统配置类型
    *
    * @param {String} params.dictId        字典id（系统配置分类id）
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/9 12:05
    */
   static deleteConfigType(params: DictRequest) {
@@ -84,7 +84,7 @@ export class SysConfigApi {
    * @param {string} params.groupCode  所属配置分类
    * @param {string} params.remark     备注
    * @param {string} params.sysFlag    是否是系统配置
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/9 13:24
    */
   static addSysConfig(params: SysConfigParam) {
@@ -101,7 +101,7 @@ export class SysConfigApi {
    * @param {string} params.groupCode  所属配置分类
    * @param {string} params.remark     备注
    * @param {string} params.sysFlag    是否是系统配置
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/9 13:24
    */
   static editSysConfig(params: SysConfigParam) {
@@ -112,7 +112,7 @@ export class SysConfigApi {
    * 删除系统配置
    *
    * @param {string} params.configId   配置id
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/9 13:24
    */
   static deleteSysConfig(params: SysConfigParam) {
@@ -123,7 +123,7 @@ export class SysConfigApi {
    * 获取系统配置是否已经初始化
    *
    * @return {boolean} true-已经初始化，false-未初始化
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/9 13:24
    */
   static async getInitConfigFlag() {
@@ -133,7 +133,7 @@ export class SysConfigApi {
   /**
    * 获取需要初始化的配置列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/9 13:24
    */
   static async getInitConfigList() {
@@ -143,7 +143,7 @@ export class SysConfigApi {
   /**
    * 初始化系统配置参数
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/7/9 11:04
    */
   static async initConfig(params: ConfigInitRequest) {

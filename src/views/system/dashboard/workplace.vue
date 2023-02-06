@@ -1,5 +1,5 @@
 <template>
-  <div class="guns-body guns-body-card">
+  <div class="xxw-body xxw-body-card">
     <!-- 欢迎提示 -->
     <a-card :bordered="false" :body-style="{ padding: '20px' }">
       <div class="ele-cell workplace-user-card">

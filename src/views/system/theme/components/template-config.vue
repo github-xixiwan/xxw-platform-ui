@@ -40,7 +40,7 @@
   /**
    * 打开配置
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/28 09:13:28
    */
   const openConfig = (templateIds: string) => {
@@ -54,7 +54,7 @@
   /**
    * 加载数据
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/28 09:19:59
    */
   const loadFieldResource = async () => {
@@ -94,7 +94,7 @@
   /**
    * 处理两栏之间的移动
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/28 15:59:01
    */
   const handleChange = async (nextTargetKeys: any, direction: any, moveKeys: any) => {

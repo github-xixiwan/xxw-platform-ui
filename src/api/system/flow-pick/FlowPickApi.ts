@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 流程选人api
  *
- * @author nxy
+ * @author liaoxiting
  * @date 2022/9/26
  */
 export class FlowPickApi {
   /**
    * 获取左侧组织机构列表
    *
-   * @author nxy
+   * @author liaoxiting
    * @date 2022/5/8 20:36
    */
   static getOrgTreeList(params) {
@@ -23,7 +23,7 @@ export class FlowPickApi {
   /**
    * 用户组添加
    *
-   * @author nxy
+   * @author liaoxiting
    * @date 2022/5/8 20:36
    */
   static add(params) {
@@ -33,7 +33,7 @@ export class FlowPickApi {
   /**
    * 用户组详情
    *
-   * @author nxy
+   * @author liaoxiting
    * @date 2022/5/8 20:36
    */
   static detail(params) {

@@ -1,5 +1,5 @@
 <template>
-  <div class="guns-body">
+  <div class="xxw-body">
     <a-row>
       <!-- 左侧业务类型列表 -->
       <a-col :lg="3" :md="4" :sm="24" :xs="24" class="new-table left-menu-background">
@@ -74,7 +74,7 @@
                     <a @click="openEdit(record)">修改</a>
                     <a-divider type="vertical" />
                     <a-popconfirm title="确定要删除此记录吗？" @confirm="remove(record)">
-                      <a class="guns-text-danger">删除</a>
+                      <a class="xxw-text-danger">删除</a>
                     </a-popconfirm>
                   </a-space>
                 </template>
@@ -175,7 +175,7 @@
 
   /**
    * 点击查询
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-10-12 09:38:18
    */
   const reload = () => {
@@ -188,7 +188,7 @@
   /**
    * 删除单个
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/2 17:03
    */
   const remove = async (row: SysExpandField) => {
@@ -200,7 +200,7 @@
   /**
    * 打开编辑弹窗
    *
-   * @author yxx
+   * @author liaoxiting
    * @date 2022/04/04 12:24
    */
   const openEdit = (row: SysExpandField) => {
@@ -211,7 +211,7 @@
   /**
    * 打开新增弹窗
    *
-   * @author yxx
+   * @author liaoxiting
    * @date 2022/04/04 12:24
    */
   const openAdd = () => {
@@ -221,7 +221,7 @@
   /**
    * 获取左侧业务列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/03/30 09:53
    */
   const loadData = async () => {
@@ -237,7 +237,7 @@
   /**
    * 点击左侧菜单，加载业务对应的数据
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/3/30 13:46
    */
   const clickMenu = (item: any) => {

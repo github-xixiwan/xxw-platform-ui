@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 菜单管理api
  *
- * @author jiawei
+ * @author liaoxiting
  * @date 2021/4/7 11:47
  */
 export class MenuApi {
   /**
    * 获取表格数据
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static findTableMenus(params) {
@@ -20,7 +20,7 @@ export class MenuApi {
   /**
    * 获取菜单列表
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/7 11:47
    */
   static async getMenuList(params) {
@@ -30,7 +30,7 @@ export class MenuApi {
   /**
    * 新增菜单
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/7 11:47
    */
   static async addMenu(params) {
@@ -40,7 +40,7 @@ export class MenuApi {
   /**
    * 修改菜单
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/7 11:47
    */
   static async editMenu(params) {
@@ -50,7 +50,7 @@ export class MenuApi {
   /**
    * 删除菜单
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/7 11:47
    */
   static async deleteMenu(params) {
@@ -60,7 +60,7 @@ export class MenuApi {
   /**
    * 获取系统菜单树（用于新增，编辑时选择上级节点）
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/7 11:47
    */
   static async getMenuTree(params) {
@@ -70,7 +70,7 @@ export class MenuApi {
   /**
    * 获取应用（选择菜单所属应用时使用）
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/7 11:47
    */
   static async getAppDropList(params) {
@@ -80,7 +80,7 @@ export class MenuApi {
   /**
    * 绑定菜单和资源
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/10 14:57
    */
   static async addMenuResourceBind(params) {

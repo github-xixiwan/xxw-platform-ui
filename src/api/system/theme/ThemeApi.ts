@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 主题api
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2021/12/20 13:42:14
  */
 export class ThemeApi {
   /**
    * 添加主题
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 13:44:51
    */
   static add(params) {
@@ -20,7 +20,7 @@ export class ThemeApi {
   /**
    * 删除主题
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 13:46:32
    */
   static del(params) {
@@ -30,7 +30,7 @@ export class ThemeApi {
   /**
    * 修改主题
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 13:47:43
    */
   static edit(params) {
@@ -40,7 +40,7 @@ export class ThemeApi {
   /**
    * 查询主题
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 13:49:15
    */
   static findPage(params) {
@@ -50,7 +50,7 @@ export class ThemeApi {
   /**
    * 查询主题详情
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 13:50:38
    */
   static detail(params) {
@@ -60,7 +60,7 @@ export class ThemeApi {
   /**
    * 修改主题启用状态
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 13:51:25
    */
   static updateThemeStatus(params) {
@@ -70,7 +70,7 @@ export class ThemeApi {
   /**
    * 获取当前主题
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/1/12 11:52
    */
   static getCurrentThemeInfo(params) {

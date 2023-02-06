@@ -1,2 +1,2 @@
-// guns website url
-export const GUNS_URL = 'https://www.javaguns.com';
+// xxw website url
+export const XXW_URL = 'https://www.javaxxw.com';

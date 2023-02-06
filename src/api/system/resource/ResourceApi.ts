@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 资源管理
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2021/4/8 11:43
  */
 export class ResourceApi {
   /**
    * 查看分页数据
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/8 11:46
    */
   static findPage(params) {

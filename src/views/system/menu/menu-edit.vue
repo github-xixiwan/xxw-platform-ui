@@ -195,7 +195,7 @@
   /**
    * 保存和编辑菜单
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/8 12:00
    */
   const save = () => {
@@ -268,7 +268,7 @@
    * 更新编辑菜单界面的弹框是否显示
    *
    * @param value true-显示，false-隐藏
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/7 12:00
    */
   const updateVisible = (value: boolean) => {
@@ -278,7 +278,7 @@
   /**
    * 判断是否是网址
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/5/31 11:21
    */
   const isUrl = (url: string) => {

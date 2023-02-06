@@ -1,5 +1,5 @@
 <template>
-  <div class="guns-body">
+  <div class="xxw-body">
     <!-- 搜索表单 -->
     <div class="block-interval">
       <a-card :bordered="false">
@@ -79,7 +79,7 @@
                 <a @click="openEdit(record)">修改</a>
                 <a-divider type="vertical" />
                 <a-popconfirm title="确定要删除此职务吗？" @confirm="remove(record)">
-                  <a class="guns-text-danger">删除</a>
+                  <a class="xxw-text-danger">删除</a>
                 </a-popconfirm>
               </a-space>
             </template>
@@ -156,7 +156,7 @@
 
   /**
    * 点击查询
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-10-12 09:38:18
    */
   const reload = () => {
@@ -166,7 +166,7 @@
 
   /**
    * 点击重置
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-10-12 09:38:29
    */
   const reset = () => {
@@ -182,7 +182,7 @@
   /**
    * 打开编辑弹窗
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/2 17:03
    */
   const openEdit = (row) => {
@@ -193,7 +193,7 @@
   /**
    * 修改职位状态
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/2 17:04
    */
   const editState = async (checked: boolean, row: any) => {
@@ -208,7 +208,7 @@
   /**
    * 批量删除
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/2 17:03
    */
   const removeBatch = () => {
@@ -234,7 +234,7 @@
   /**
    * 删除单个
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/2 17:03
    */
   const remove = async (row: any) => {

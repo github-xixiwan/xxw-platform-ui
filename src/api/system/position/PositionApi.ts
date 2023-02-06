@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 职位管理的api
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2021/4/8 11:43
  */
 export class PositionApi {
   /**
    * 查看分页数据
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/8 11:46
    */
   static findPage(params) {
@@ -20,7 +20,7 @@ export class PositionApi {
   /**
    * 新增
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/8 11:43
    */
   static add(params) {
@@ -30,7 +30,7 @@ export class PositionApi {
   /**
    * 删除
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/8 11:45
    */
   static del(params) {
@@ -40,7 +40,7 @@ export class PositionApi {
   /**
    * 批量删除
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/8 11:45
    */
   static batchDel(params) {
@@ -50,7 +50,7 @@ export class PositionApi {
   /**
    * 修改
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/8 11:45
    */
   static edit(params) {
@@ -60,7 +60,7 @@ export class PositionApi {
   /**
    * 查看详情
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/8 11:46
    */
   static detail(params) {
@@ -70,7 +70,7 @@ export class PositionApi {
   /**
    * 更新状态
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/8 13:41
    */
   static updateStatus(params) {

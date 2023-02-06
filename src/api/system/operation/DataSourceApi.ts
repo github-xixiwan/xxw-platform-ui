@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 数据源操作api
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2021/4/1 15:10
  */
 export class DataSourceApi {
   /**
    * 获取数据源信息列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static findPage(params) {
@@ -26,7 +26,7 @@ export class DataSourceApi {
    * @param {string} params.password jdbc密码
    * @param {string} params.remark 备注
    * @param {string} params.username jdbc账号
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/12 22:25
    */
   static add(params) {
@@ -37,7 +37,7 @@ export class DataSourceApi {
    * 删除数据源
    *
    * @param {string} params.dbId 数据源id
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/13 15:12
    */
   static delete(params) {

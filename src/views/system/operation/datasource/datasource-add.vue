@@ -117,7 +117,7 @@
   const urlList = ref<string>([
     {
       title:
-        'jdbc:mysql://127.0.0.1:3306/guns?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=CTT',
+        'jdbc:mysql://127.0.0.1:3306/xxw?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=CTT',
       name: 'mysql',
     },
     {
@@ -125,11 +125,11 @@
       name: 'oracle',
     },
     {
-      title: 'jdbc:jtds:sqlserver://127.0.0.1:1433;DatabaseName=guns',
+      title: 'jdbc:jtds:sqlserver://127.0.0.1:1433;DatabaseName=xxw',
       name: 'sql server',
     },
     {
-      title: 'jdbc:postgresql://127.0.0.1:5432/guns',
+      title: 'jdbc:postgresql://127.0.0.1:5432/xxw',
       name: 'postgre sql',
     },
   ]);
@@ -155,7 +155,7 @@
   /**
    * 保存和编辑
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/8 13:33
    */
   const save = () => {
@@ -195,7 +195,7 @@
   /**
    * 更新编辑界面弹框是否显示
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/14 20:24
    */
   const updateVisible = (value: boolean) => {

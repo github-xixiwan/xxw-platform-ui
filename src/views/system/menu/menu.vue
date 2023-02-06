@@ -1,5 +1,5 @@
 <template>
-  <div class="guns-body">
+  <div class="xxw-body">
     <!-- 搜索表单 -->
     <div class="block-interval">
       <a-card :bordered="false">
@@ -106,7 +106,7 @@
                 <a @click="openEdit(record, '1')">修改</a>
                 <a-divider type="vertical" />
                 <a-popconfirm title="确定要删除此菜单吗？" @confirm="remove(record)">
-                  <a class="guns-text-danger">删除</a>
+                  <a class="xxw-text-danger">删除</a>
                 </a-popconfirm>
                 <a-divider v-if="record.leafFlag" type="vertical" />
                 <a v-if="record.leafFlag" @click="openEdit(record, '2')">按钮管理</a>
@@ -223,7 +223,7 @@
 
   /**
    * 点击查询
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-10-13 09:21:26
    */
   const reload = () => {
@@ -233,7 +233,7 @@
 
   /**
    * 点击重置
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-10-13 09:21:50
    */
   const reset = () => {
@@ -257,7 +257,7 @@
   /**
    * 删除单个
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/8 10:06
    */
   const remove = async (row: any) => {
@@ -269,7 +269,7 @@
   /**
    * 批量删除
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/8 10:06
    */
   const removeBatch = () => {
@@ -295,7 +295,7 @@
   /**
    * 打开编辑弹窗
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/8 10:06
    */
   const openEdit = (row: any, flag: string) => {

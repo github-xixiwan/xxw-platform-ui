@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 用户管理api
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2021/4/1 16:06
  */
 export class UserPowerApi {
   /**
    * 获取用户角色列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static getRoleSelectList(params) {
@@ -20,7 +20,7 @@ export class UserPowerApi {
   /**
    * 获取管理员列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static getAdminList(params) {
@@ -30,7 +30,7 @@ export class UserPowerApi {
   /**
    * 添加管理员
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static addAdmin(params) {
@@ -43,7 +43,7 @@ export class UserPowerApi {
   /**
    * 删除管理员
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static delAdmin(params) {

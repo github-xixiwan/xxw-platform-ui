@@ -59,7 +59,7 @@
   /**
    * 选中人员时的监听
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/14 20:23
    */
   const handleChange = (targetKeys) => {

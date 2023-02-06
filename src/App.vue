@@ -1,5 +1,5 @@
 <!--
- * @Author: nxy
+ * @Author: liaoxiting
  * @Date: 2022-10-08 14:28:29
 -->
 <template>
@@ -28,7 +28,7 @@
   onMounted(async () => {
     const systemStore = useSystemStore();
     let result = await systemStore.loadThemeInfo();
-    let faviconUrl = result.gunsMgrFavicon;
+    let faviconUrl = result.xxwMgrFavicon;
     await nextTick();
     let link = document.querySelector("link[rel*='icon']") || document.createElement('link');
     link.type = 'image/x-icon';

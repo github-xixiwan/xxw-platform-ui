@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 主题模板属性api
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2021/12/20 11:19:37
  */
 export class ThemeTemplateFieldApi {
   /**
    * 增加主题模板属性
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 11:21:42
    */
   static add(params) {
@@ -23,7 +23,7 @@ export class ThemeTemplateFieldApi {
   /**
    * 删除主题模板属性
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 11:22:55
    */
   static del(params) {
@@ -36,7 +36,7 @@ export class ThemeTemplateFieldApi {
   /**
    * 编辑主题模板属性
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 11:24:57
    */
   static edit(params) {
@@ -49,7 +49,7 @@ export class ThemeTemplateFieldApi {
   /**
    * 查看主题模板属性详情
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 11:33:37
    */
   static detail(params) {
@@ -59,7 +59,7 @@ export class ThemeTemplateFieldApi {
   /**
    * 查询系统主题模板属性列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/27 10:13:22
    */
   static findPage(params) {
@@ -69,7 +69,7 @@ export class ThemeTemplateFieldApi {
   /**
    * 查询系统主题模板属性已有关系列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/27 10:14:18
    */
   static findRelList(params) {
@@ -79,7 +79,7 @@ export class ThemeTemplateFieldApi {
   /**
    * 查询系统主题模板属性未有关系列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/27 10:15:16
    */
   static findNotRelList(params) {

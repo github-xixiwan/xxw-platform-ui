@@ -4,7 +4,7 @@ export class UserApi {
   /**
    * 获取用户列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static getUserPages(params) {
@@ -14,7 +14,7 @@ export class UserApi {
   /**
    * 获取用户列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static getUserList(params) {
@@ -24,7 +24,7 @@ export class UserApi {
   /**
    * 新增用户
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static addUser(params) {
@@ -34,7 +34,7 @@ export class UserApi {
   /**
    * 修改用户
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static editUser(params) {
@@ -44,7 +44,7 @@ export class UserApi {
   /**
    * 修改用户状态
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static changeStatus(params) {
@@ -54,7 +54,7 @@ export class UserApi {
   /**
    * 解除用户冻结
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static unFreezeUser(params) {
@@ -64,7 +64,7 @@ export class UserApi {
   /**
    * 重置密码
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static resetPwd(params) {
@@ -74,7 +74,7 @@ export class UserApi {
   /**
    * 删除用户
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static deleteUser(params) {
@@ -84,7 +84,7 @@ export class UserApi {
   /**
    * 批量删除用户
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static batchDeleteUser(params) {
@@ -94,7 +94,7 @@ export class UserApi {
   /**
    * 获取职位信息（下拉选择用）
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static getPositionDropList(params) {
@@ -105,7 +105,7 @@ export class UserApi {
   /**
    * 获取左侧组织机构树列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static getOrgTeeList(params) {
@@ -116,7 +116,7 @@ export class UserApi {
    * 获取组织机构详情
    *
    * @param {String} params.orgId - 组织机构id
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static getOrgDetail(params) {
@@ -126,7 +126,7 @@ export class UserApi {
   /**
    * 组织机构新增
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static addOrg(params) {
@@ -136,7 +136,7 @@ export class UserApi {
   /**
    * 组织机构修改
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static editOrg(params) {
@@ -146,7 +146,7 @@ export class UserApi {
   /**
    * 组织机构删除
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static deleteOrg(params) {
@@ -157,7 +157,7 @@ export class UserApi {
   /**
    * 获取所有角色列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static getRoleDropList(params) {
@@ -167,7 +167,7 @@ export class UserApi {
   /**
    * 查询用户的所有角色(需要传userId)
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static getUserRoles(params) {
@@ -179,7 +179,7 @@ export class UserApi {
    *
    * @param {String} params.userId - 用户id
    * @param {Array} params.grantRoleIdList - 角色列表集合
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static grantRoles(params) {
@@ -190,7 +190,7 @@ export class UserApi {
   /**
    * 获取授权数据范围列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static getUserBindOrgScope(params) {
@@ -200,7 +200,7 @@ export class UserApi {
   /**
    * 授权数据范围
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static granData(params) {
@@ -211,7 +211,7 @@ export class UserApi {
   /**
    * 强制踢下线
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/13 14:47
    */
   static kickOff(params) {
@@ -221,7 +221,7 @@ export class UserApi {
   /**
    * 获取组织机构审批人绑定列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/13 14:47
    */
   static getBindingList(params) {
@@ -231,7 +231,7 @@ export class UserApi {
   /**
    * 更新组织机构绑定审批人
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/13 14:47
    */
   static bindUserList(params) {
@@ -244,7 +244,7 @@ export class UserApi {
   /**
    * 删除组织机构绑定审批人
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/13 14:47
    */
   static hrOrgApproverDelete(params) {

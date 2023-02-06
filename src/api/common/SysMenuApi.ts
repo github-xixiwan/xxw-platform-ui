@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 菜单管理api
  *
- * @author chenjinlong
+ * @author liaoxiting
  * @date 2021/4/7 11:47
  */
 export class SysMenuApi {
   /**
    * 获取菜单列表
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/7 11:47
    */
   static async getMenuList(params) {
@@ -22,7 +22,7 @@ export class SysMenuApi {
    *
    * @param {String} params.appCode - 应用编码
    * @param {Boolean} params.totalMenus - 全部应用（true-全部，false-非全部）
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/21 16:35
    */
   static getLeftMenuList(params) {
@@ -32,7 +32,7 @@ export class SysMenuApi {
   /**
    * 获取角色分配菜单界面，绑定情况列表
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static async roleBindMenuList(params) {
@@ -42,7 +42,7 @@ export class SysMenuApi {
   /**
    * 获取角色分配操作权限，绑定情况列表
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static async roleBindOperateList(params) {
@@ -52,7 +52,7 @@ export class SysMenuApi {
   /**
    * 角色绑定菜单
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static grantRoleMenus(params) {
@@ -61,7 +61,7 @@ export class SysMenuApi {
 
   /**
    * 角色绑定按钮
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-09-29 09:26:01
    */
   static grantButton(params) {
@@ -70,7 +70,7 @@ export class SysMenuApi {
 
   /**
    * 角色绑定菜单的全选
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-09-29 09:26:01
    */
   static grantAll(params) {
@@ -82,7 +82,7 @@ export class SysMenuApi {
 
   /**
    * 角色绑定操作权限的全选
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-09-29 09:26:01
    */
   static grantButtonAll(params) {
@@ -94,7 +94,7 @@ export class SysMenuApi {
 
   /**
    * 角色绑定分配接口的全选
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-09-29 09:26:01
    */
   static grantResourceV2All(params) {

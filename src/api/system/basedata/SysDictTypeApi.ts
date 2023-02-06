@@ -1,5 +1,5 @@
 /*
- * @Author: nxy
+ * @Author: liaoxiting
  * @Date: 2022-10-10 10:01:58
  */
 import { PageResult } from '../../model/baseModel';
@@ -9,14 +9,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 字典类型api
  *
- * @author chenjinlong
+ * @author liaoxiting
  * @date 2021/4/13 09:52
  */
 export class SysDictTypeApi {
   /**
    * 获取字典类型分页列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static findDictTypePage(params: DictTypeRequest) {
@@ -26,7 +26,7 @@ export class SysDictTypeApi {
   /**
    * 新增
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static add(params: DictTypeRequest) {
@@ -36,7 +36,7 @@ export class SysDictTypeApi {
   /**
    * 删除
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static del(params: DictTypeRequest) {
@@ -46,7 +46,7 @@ export class SysDictTypeApi {
   /**
    * 批量删除
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static batchDel(params: DictTypeRequest) {
@@ -56,7 +56,7 @@ export class SysDictTypeApi {
   /**
    * 修改
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static edit(params: DictTypeRequest) {
@@ -66,7 +66,7 @@ export class SysDictTypeApi {
   /**
    * 获取字典类型下的所有字典
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/19 22:42
    */
   static getDictListByParams() {
@@ -76,7 +76,7 @@ export class SysDictTypeApi {
   /**
    * 获取所有字典类型列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/20 10:41
    */
   static getDictTypeList() {

@@ -7,14 +7,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 业务拓展api
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2022/03/30 09:53
  */
 export class SysExpandApi {
   /**
    * 分页获取列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/5/8 20:36
    */
   static findPage(params: SysExpandRequest) {
@@ -24,7 +24,7 @@ export class SysExpandApi {
   /**
    * 新增
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/03/30 09:53
    */
   static add(params: SysExpandRequest) {
@@ -34,7 +34,7 @@ export class SysExpandApi {
   /**
    * 修改
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/03/30 09:53
    */
   static edit(params: SysExpandRequest) {
@@ -44,7 +44,7 @@ export class SysExpandApi {
   /**
    * 删除
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/03/30 09:53
    */
   static delete(params: SysExpandRequest) {
@@ -54,7 +54,7 @@ export class SysExpandApi {
   /**
    * 详情
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/03/30 09:53
    */
   static detail(params: SysExpandRequest) {
@@ -64,7 +64,7 @@ export class SysExpandApi {
   /**
    * 更新状态
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/03/30 09:53
    */
   static updateStatus(params: SysExpandRequest) {
@@ -74,7 +74,7 @@ export class SysExpandApi {
   /**
    * 查询拓展业务列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/03/30 09:53
    */
   static list(params?: SysExpandRequest) {
@@ -84,7 +84,7 @@ export class SysExpandApi {
   /**
    * 根据拓展业务编码，获取业务的元数据信息
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/03/30 09:53
    */
   static getByExpandCode(params: SysExpandRequest) {
@@ -94,7 +94,7 @@ export class SysExpandApi {
   /**
    * 获取用在列表显示的字段信息
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/03/30 09:53
    */
   static getListFields(params: SysExpandRequest) {

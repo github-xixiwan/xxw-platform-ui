@@ -1,19 +1,19 @@
 <template>
   <Footer :class="prefixCls" v-if="getShowLayoutFooter" ref="footerRef">
     <div :class="`${prefixCls}__links`">
-      <a @click="openWindow(GUNS_URL)">{{ t('layout.footer.website') }}</a>
+      <a @click="openWindow(XXW_URL)">{{ t('layout.footer.website') }}</a>
 
-      <a @click="openWindow(GUNS_URL)" :class="`${prefixCls}__github`">{{
+      <a @click="openWindow(XXW_URL)" :class="`${prefixCls}__github`">{{
         t('layout.footer.document')
       }}</a>
 
-      <a @click="openWindow(GUNS_URL)">{{ t('layout.footer.authorization') }}</a>
+      <a @click="openWindow(XXW_URL)">{{ t('layout.footer.authorization') }}</a>
     </div>
     <div
-      >{{ themeInfo.gunsMgrFooterText }}&nbsp;&nbsp;<a
-        :href="themeInfo.gunsMgrBeiUrl"
+      >{{ themeInfo.xxwMgrFooterText }}&nbsp;&nbsp;<a
+        :href="themeInfo.xxwMgrBeiUrl"
         target="_blank"
-        >{{ themeInfo.gunsMgrBeiNo }}</a
+        >{{ themeInfo.xxwMgrBeiNo }}</a
       ></div
     >
   </Footer>
@@ -25,7 +25,7 @@
 
   import { GithubFilled } from '@ant-design/icons-vue';
 
-  import { GUNS_URL } from '/@/settings/siteSetting';
+  import { XXW_URL } from '/@/settings/siteSetting';
   import { openWindow } from '/@/utils';
 
   import { useI18n } from '/@/hooks/web/useI18n';
@@ -72,7 +72,7 @@
         prefixCls,
         themeInfo,
         t,
-        GUNS_URL,
+        XXW_URL,
         openWindow,
         footerRef,
       };

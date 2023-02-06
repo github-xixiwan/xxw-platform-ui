@@ -65,7 +65,7 @@ export default {
     signUpFormTitle: '注册',
     forgetFormTitle: '重置密码',
 
-    signInTitle: 'Guns v7.3.0发布',
+    signInTitle: 'Xxw v7.3.0发布',
     signInDesc: '全新推出vue前后端分离版本，前端基于Vue3 + Antdv + TypeScript，100%开源',
     policy: '我同意xxx隐私政策',
     scanSign: `扫码后点击"确认"，即可完成登录`,

@@ -1,5 +1,5 @@
 <template>
-  <div class="guns-body">
+  <div class="xxw-body">
     <a-row :gutter="16">
       <!-- 左侧组织机构列表 -->
       <a-col :lg="5" :md="10" :sm="24" :xs="24" class="left-menu-height">
@@ -112,7 +112,7 @@
                     <a @click="openEdit(record)">修改</a>
                     <a-divider type="vertical" />
                     <a-popconfirm title="确定要删除此用户吗？" @confirm="remove(record)">
-                      <a class="guns-text-danger">删除</a>
+                      <a class="xxw-text-danger">删除</a>
                     </a-popconfirm>
                     <a-divider type="vertical" />
                     <a @click="openRoleDialog(record)">分配角色</a>
@@ -247,7 +247,7 @@
   /**
    * 更新组织机构列表数据
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/12 14:18
    */
   const updateOrgList = async () => {
@@ -262,7 +262,7 @@
   /**
    * 修改用户状态
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/2 17:04
    */
   const editState = async (checked: boolean, row: any) => {
@@ -277,7 +277,7 @@
   /**
    * 解除冻结用户
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/5/31 14:17
    */
   const unFreezeUser = async (record) => {
@@ -296,7 +296,7 @@
 
   /**
    * 批量删除
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-10-09 16:56:28
    */
   const removeBatch = () => {
@@ -328,7 +328,7 @@
   /**
    * 重置用户密码
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/2 17:04
    */
   const resetPsw = (row?: any) => {
@@ -347,7 +347,7 @@
   /**
    * 删除单个
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/2 17:03
    */
   const remove = async (row: any) => {

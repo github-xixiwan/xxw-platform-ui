@@ -9,14 +9,14 @@ export const FileUploadUrl = '/sysFileInfo/upload';
 /**
  * 文件相关api
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2021/4/1 15:10
  */
 export class FileApi {
   /**
    * 获取文件列表，用在文件选择组件
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/5/8 20:36
    */
   static findSelectPageList(params) {
@@ -26,7 +26,7 @@ export class FileApi {
   /**
    * 获取文件列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static findPage(params) {
@@ -43,7 +43,7 @@ export class FileApi {
    *
    * @param {String} secretFlag  是否是机密文件，Y-是机密文件，N-非机密文件
    * @param {Object} formData   FormData的实例对象，需要在formData中添加file属性
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 14:34
    */
   static commonUpload(params) {
@@ -54,7 +54,7 @@ export class FileApi {
    * 删除文件
    *
    * @param {string} params.fileCode 文件编码
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/12 22:02
    */
   static delete(params) {
@@ -70,7 +70,7 @@ export class FileApi {
    * @param {string} params.fileId 文件id
    * @param {string} params.secretFlag 是否是私有文件
    * @param {string} params.token 用户的token
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/12 22:08
    */
   static download(params) {
@@ -85,7 +85,7 @@ export class FileApi {
    * 文件详情
    *
    * @param {string} params.fileId 文件id
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/12 22:25
    */
   static detail(params) {

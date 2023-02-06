@@ -60,8 +60,8 @@
   onMounted(async () => {
     // 加载主题信息，logo和左上角的项目名
     let result = await systemStore.loadThemeInfo();
-    logo.value = result.gunsMgrLogo;
-    projectName.value = result.gunsMgrName;
+    logo.value = result.xxwMgrLogo;
+    projectName.value = result.xxwMgrName;
   });
 </script>
 <style lang="less" scoped>

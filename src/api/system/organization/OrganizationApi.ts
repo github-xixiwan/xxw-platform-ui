@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 机构管理的api
  *
- * @author chenjinlong
+ * @author liaoxiting
  * @date 2021/4/8 11:43
  */
 export class OrganizationApi {
   /**
    * 获取组织机构界面
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/5/20 17:18
    */
   static organizationTreeList(params) {
@@ -20,7 +20,7 @@ export class OrganizationApi {
   /**
    * 公司树列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/5/20 17:18
    */
   static companyTreeList(params) {
@@ -30,7 +30,7 @@ export class OrganizationApi {
   /**
    * 树
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/8 11:43
    */
   static tree(params) {
@@ -40,7 +40,7 @@ export class OrganizationApi {
   /**
    * 新增
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/8 11:43
    */
   static add(params) {
@@ -50,7 +50,7 @@ export class OrganizationApi {
   /**
    * 删除
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/8 11:45
    */
   static del(params) {
@@ -60,7 +60,7 @@ export class OrganizationApi {
   /**
    * 批量删除
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/8 11:45
    */
   static batchDel(params) {
@@ -73,7 +73,7 @@ export class OrganizationApi {
   /**
    * 修改
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/8 11:45
    */
   static edit(params) {
@@ -83,7 +83,7 @@ export class OrganizationApi {
   /**
    * 查看详情
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/8 11:46
    */
   static detail(params) {
@@ -93,7 +93,7 @@ export class OrganizationApi {
   /**
    * 更新状态
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/8 13:41
    */
   static updateStatus(params) {
@@ -106,7 +106,7 @@ export class OrganizationApi {
   /**
    * 获取最近选择的条件
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/8 13:41
    */
   static selector(params) {

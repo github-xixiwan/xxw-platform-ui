@@ -84,7 +84,7 @@
                 <a @click="openBindResource(record)">绑定接口</a>
                 <a-divider type="vertical" />
                 <a-popconfirm title="确定要删除此按钮吗？" @confirm="remove(record)">
-                  <a class="guns-text-danger">删除</a>
+                  <a class="xxw-text-danger">删除</a>
                 </a-popconfirm>
               </a-space>
             </template>
@@ -166,7 +166,7 @@
 
   /**
    * 点击查询
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-10-13 09:21:26
    */
   const reload = () => {
@@ -176,7 +176,7 @@
 
   /**
    * 点击重置
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-10-13 09:21:50
    */
   const reset = () => {
@@ -193,7 +193,7 @@
   /**
    * 删除单个
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/8 10:06
    */
   const remove = async (row: any) => {
@@ -205,7 +205,7 @@
   /**
    * 批量删除
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/8 10:06
    */
   const removeBatch = () => {
@@ -230,7 +230,7 @@
   /**
    * 一建添加默认按钮
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/8 10:06
    */
   const addDefaultButton = async () => {
@@ -250,7 +250,7 @@
   /**
    * 打开编辑弹窗
    *
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/8 10:06
    */
   const openEdit = (row: any) => {
@@ -262,7 +262,7 @@
   /**
    * 打开绑定资源
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/10 17:44
    */
   const openBindResource = (row: any) => {

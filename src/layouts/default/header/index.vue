@@ -33,9 +33,9 @@
 
     <!-- action  -->
     <div :class="`${prefixCls}-action`">
-      <div :class="`${prefixCls}-action__item `" @click="jumpGuns">
-        <img src="../../../assets/images/guns.png" alt="" class="guns-img" />
-        <span class="guns-title">Guns-DevOps</span>
+      <div :class="`${prefixCls}-action__item `" @click="jumpXxw">
+        <img src="../../../assets/images/xxw.png" alt="" class="xxw-img" />
+        <span class="xxw-title">xxw-DevOps</span>
       </div>
 
       <AppChange :class="`${prefixCls}-action__item `" v-if="getShowSearch" />
@@ -87,8 +87,8 @@
 
   import { createAsyncComponent } from '/@/utils/factory/createAsyncComponent';
   import { useLocale } from '/@/locales/useLocale';
-  import { GUNS_DEVOPS_URL, WEBSOCKET_MESSAGE_TYPE } from '/@/config/settings';
-  import { GunsWebsocket } from '/@/utils/websocket';
+  import { XXW_DEVOPS_URL, WEBSOCKET_MESSAGE_TYPE } from '/@/config/settings';
+  import { XxwWebsocket } from '/@/utils/websocket';
   import { useNoticeStore } from '/@/store/modules/notice';
   import { useUserStore } from '/@/store/modules/user';
   import { getToken } from '/@/utils/auth';
@@ -187,16 +187,16 @@
         return unref(getSplit) ? MenuModeEnum.HORIZONTAL : null;
       });
 
-      // 跳转到guns
-      const jumpGuns = () => {
-        window.open(GUNS_DEVOPS_URL + getToken());
+      // 跳转到xxw
+      const jumpXxw = () => {
+        window.open(XXW_DEVOPS_URL + getToken());
       };
 
       onMounted(async () => {
         // 注册消息通知的websocket
         try {
-          let gunsWebsocket = new GunsWebsocket(userStore?.userInfo?.wsUrl);
-          await gunsWebsocket.initWebSocket((result) => {
+          let xxwWebsocket = new XxwWebsocket(userStore?.userInfo?.wsUrl);
+          await xxwWebsocket.initWebSocket((result) => {
             if (WEBSOCKET_MESSAGE_TYPE.server.SYS_NOTICE_MSG_TYPE === result.serverMsgType) {
               noticeStore.addNotice(result.data);
             }
@@ -207,7 +207,7 @@
       });
 
       return {
-        jumpGuns,
+        jumpXxw,
         prefixCls,
         getHeaderClass,
         getShowHeaderLogo,
@@ -234,12 +234,12 @@
   });
 </script>
 <style lang="less">
-  .guns-img {
+  .xxw-img {
     width: 16px;
     height: 16px;
     margin-right: 5px;
   }
-  .guns-title {
+  .xxw-title {
     font-size: 14px;
   }
   @import './index.less';

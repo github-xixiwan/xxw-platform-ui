@@ -1,5 +1,5 @@
 /*
- * @Author: nxy
+ * @Author: liaoxiting
  * @Date: 2022-10-10 10:01:58
  */
 import { PageResult } from '../../model/baseModel';
@@ -9,14 +9,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 字典数据api
  *
- * @author chenjinlong
+ * @author liaoxiting
  * @date 2021/4/13 09:52
  */
 export class SysDictDataApi {
   /**
    * 获取字典类型分页列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static findDictPage(params: DictRequest) {
@@ -26,7 +26,7 @@ export class SysDictDataApi {
   /**
    * 新增
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static add(params: DictRequest) {
@@ -36,7 +36,7 @@ export class SysDictDataApi {
   /**
    * 删除
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static del(params: DictRequest) {
@@ -46,7 +46,7 @@ export class SysDictDataApi {
   /**
    * 批量删除
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static batchDel(params: DictRequest) {
@@ -56,7 +56,7 @@ export class SysDictDataApi {
   /**
    * 修改
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static edit(params: DictRequest) {

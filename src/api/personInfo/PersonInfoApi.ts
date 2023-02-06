@@ -5,14 +5,14 @@ import { UpdatePasswordParam } from './model/PersonInfoModel';
 /**
  * 个人信息api
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2021/4/1 15:03
  */
 export class PersonInfoApi {
   /**
    * 获取当前用户信息
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 15:04
    */
   static getCurrentLoginUserInfo() {
@@ -29,7 +29,7 @@ export class PersonInfoApi {
    * @param {String} params.realName  真实姓名
    * @param {String} params.sex       性别
    * @param {String} params.userId    用户id
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/13 16:16
    */
   static updateUserInfo(params: SysUserRequest) {
@@ -41,7 +41,7 @@ export class PersonInfoApi {
    *
    * @param {String} password      旧密码
    * @param {String} newPassword   新密码
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 15:09
    */
   static updatePassword(params: UpdatePasswordParam) {
@@ -52,7 +52,7 @@ export class PersonInfoApi {
    * 修改头像
    *
    * @param {String} avatar    头像id
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 15:09
    */
   static updateAvatar(params) {

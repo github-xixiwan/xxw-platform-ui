@@ -1,5 +1,5 @@
 <template>
-  <div class="guns-body guns-body-card">
+  <div class="xxw-body xxw-body-card">
     <a-row :gutter="16">
       <a-col :lg="5" :md="10" :sm="24" :xs="24">
         <a-card :bordered="false" :body-style="{ padding: '24px 24px' }" class="new-table">
@@ -108,7 +108,7 @@
   /**
    * 刷新系统配置分类表格
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/9 11:49
    */
   const reload = () => {
@@ -118,7 +118,7 @@
   /**
    * 打开编辑系统配置分类
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/9 11:49
    */
   const openEdit = () => {
@@ -130,7 +130,7 @@
   /**
    * 删除系统配置分类
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/9 11:49
    */
   const remove = () => {

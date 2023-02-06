@@ -318,7 +318,7 @@
   /**
    * 菜单查询权限数据
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/10 21:20
    */
   const loadAuthData = async () => {
@@ -359,7 +359,7 @@
   /**
    * 菜单处理选中组的事件
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/8 23:35
    */
   const menuCheckedGroup = async (event: any, record: any) => {
@@ -391,7 +391,7 @@
   /**
    * 菜单处理选中的节点数据
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/8 23:35
    */
   const menuCheckedItem = async (event: any, record: any, chilItem: any) => {
@@ -428,7 +428,7 @@
   /**
    * api处理选中组的事件
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/8 23:35
    */
   const apiCheckedGroup = async (event: any, record: any) => {
@@ -459,7 +459,7 @@
   /**
    * api处理选中的节点数据
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/8 23:35
    */
   const apiCheckedItem = async (checkedValue: string[], record: any) => {
@@ -500,7 +500,7 @@
   /**
    * api加载资源列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/8 23:34
    */
   const loadMenuResource = async () => {

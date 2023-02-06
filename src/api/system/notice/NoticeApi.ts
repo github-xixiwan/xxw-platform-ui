@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 系统通知管理
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2021/6/12 17:51
  */
 export class NoticeApi {
   /**
    * 获取通知列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static findPage(params) {
@@ -20,7 +20,7 @@ export class NoticeApi {
   /**
    * 获取当前用户未读消息
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/12 18:20
    */
   static getUnReadMessages() {
@@ -30,7 +30,7 @@ export class NoticeApi {
   /**
    * 将当前用户未读消息标记未已读
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/12 18:20
    */
   static messageSetRead() {
@@ -41,7 +41,7 @@ export class NoticeApi {
    * 批量标记消息状态为已读
    *
    * @param {List<String>} param.messageIdList 消息id集合
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/12 18:20
    */
   static batchUpdateReadFlag(params) {
@@ -54,7 +54,7 @@ export class NoticeApi {
   /**
    * 删除通知
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/14 21:17
    */
   static deleteNotice(params) {
@@ -64,7 +64,7 @@ export class NoticeApi {
   /**
    * 全部标记未已读状态
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/15 23:09
    */
   static setAlreadyReadState() {
@@ -74,7 +74,7 @@ export class NoticeApi {
   /**
    * 删除我的消息
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/15 23:13
    */
   static deleteMessage(params) {
@@ -84,7 +84,7 @@ export class NoticeApi {
   /**
    * 查看消息详情
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/15 23:13
    */
   static messageDetail(params) {

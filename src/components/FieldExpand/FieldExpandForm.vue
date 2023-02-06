@@ -84,7 +84,7 @@ export default {
     /**
      * 自定义校验
      *
-     * @author fengshuonan
+     * @author liaoxiting
      * @date 2022/3/31 18:51
      */
     const customValidator = async (rule, value) => {
@@ -113,7 +113,7 @@ export default {
     /**
      * 加载表单信息
      *
-     * @author fengshuonan
+     * @author liaoxiting
      * @date 2022/3/31 15:21
      */
     const loadForm = primaryFieldValue => {
@@ -157,7 +157,7 @@ export default {
     /**
      * 获取填写数据
      *
-     * @author fengshuonan
+     * @author liaoxiting
      * @date 2022/3/31 15:21
      */
     const validate = async () => {
@@ -167,7 +167,7 @@ export default {
     /**
      * 获取填写数据
      *
-     * @author fengshuonan
+     * @author liaoxiting
      * @date 2022/3/31 15:21
      */
     const getData = () => {

@@ -99,7 +99,7 @@
    * 更新编辑界面的弹框是否显示
    *
    * @param value true-显示，false-隐藏
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/7 11:00
    */
   const updateVisible = (value) => {
@@ -109,7 +109,7 @@
   /**
    * 保存和编辑
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/7 11:00
    */
   const save = () => {

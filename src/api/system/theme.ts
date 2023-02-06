@@ -3,7 +3,7 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 获取api基础路径
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2021/4/1 14:45
  */
 export function getCurrentThemeInfo() {

@@ -5,14 +5,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 应用api
  *
- * @author chenjinlong
+ * @author liaoxiting
  * @date 2021/4/1 16:06
  */
 export class SysAppApi {
   /**
    * 分页获取列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/5/8 20:36
    */
   static findPage(params: SysAppRequest) {
@@ -22,7 +22,7 @@ export class SysAppApi {
   /**
    * 新增
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static add(params: SysAppRequest) {
@@ -32,7 +32,7 @@ export class SysAppApi {
   /**
    * 删除
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static del(params: SysAppRequest) {
@@ -42,7 +42,7 @@ export class SysAppApi {
   /**
    * 批量删除
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static batchDel(params: SysAppRequest) {
@@ -52,7 +52,7 @@ export class SysAppApi {
   /**
    * 修改
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static edit(params: SysAppRequest) {
@@ -62,7 +62,7 @@ export class SysAppApi {
   /**
    * 激活默认应用
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static active(params: SysAppRequest) {
@@ -75,7 +75,7 @@ export class SysAppApi {
   /**
    * 获取系统顶部导航的应用列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/21 16:20
    */
   static getAppList() {
@@ -85,7 +85,7 @@ export class SysAppApi {
   /**
    * 更新应用状态
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static updateStatus(params: SysAppRequest) {

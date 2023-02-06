@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 主题模板属性关系api
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2021/12/27 10:18:08
  */
 export class ThemeTemplateRelApi {
   /**
    * 增加系统主题属性关系
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/27 10:19:44
    */
   static add(params) {
@@ -23,7 +23,7 @@ export class ThemeTemplateRelApi {
   /**
    * 删除系统主题属性关系
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/27 10:20:54
    */
   static del(params) {

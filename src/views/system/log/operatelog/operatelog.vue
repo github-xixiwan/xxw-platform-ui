@@ -1,5 +1,5 @@
 <template>
-  <div class="guns-body">
+  <div class="xxw-body">
     <!-- 搜索表单 -->
     <div class="block-interval">
       <a-card :bordered="false">
@@ -21,7 +21,7 @@
             </a-form-item>
             <a-form-item label="服务名称:">
               <a-select v-model:value="where.appName" style="width: 205px">
-                <a-select-option value="guns">guns</a-select-option>
+                <a-select-option value="xxw">xxw</a-select-option>
               </a-select>
             </a-form-item>
             <a-form-item label="日志名称:">
@@ -154,7 +154,7 @@
 
   /**
    * 点击查询
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-10-12 09:38:18
    */
   const reload = () => {
@@ -164,7 +164,7 @@
 
   /**
    * 点击重置
-   * @author: nxy
+   * @author: liaoxiting
    * @Date: 2022-10-12 09:38:29
    */
   const reset = () => {
@@ -178,7 +178,7 @@
   /**
    * 批量删除
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/2 17:03
    */
   const removeBatch = () => {
@@ -202,7 +202,7 @@
   /**
    * 打开详情窗口
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/2 17:03
    */
   const openDetail = async (row: any) => {

@@ -103,7 +103,7 @@
   /**
    * 保存编辑
    *
-   * @author yxx
+   * @author liaoxiting
    * @date 2022/6/14 20:24
    */
   const save = () => {
@@ -136,7 +136,7 @@
   /**
    * 更新编辑界面弹框是否显示
    *
-   * @author yxx
+   * @author liaoxiting
    * @date 2022/6/14 20:24
    */
   const updateVisible = (value) => {

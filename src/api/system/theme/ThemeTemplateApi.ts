@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 主题模板api
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2021/12/20 11:36:02
  */
 export class ThemeTemplateApi {
   /**
    * 增加主题模板
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 11:38:37
    */
   static add(params) {
@@ -20,7 +20,7 @@ export class ThemeTemplateApi {
   /**
    * 编辑主题模板
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 11:38:53
    */
   static edit(params) {
@@ -30,7 +30,7 @@ export class ThemeTemplateApi {
   /**
    * 删除主题模板
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 11:40:30
    */
   static del(params) {
@@ -40,7 +40,7 @@ export class ThemeTemplateApi {
   /**
    * 查询主题模板
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 11:45:45
    */
   static findPage(params) {
@@ -50,7 +50,7 @@ export class ThemeTemplateApi {
   /**
    * 查询主题模板列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/29 09:15:48
    */
   static findList(params) {
@@ -60,7 +60,7 @@ export class ThemeTemplateApi {
   /**
    * 修改主题模板状态
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 11:49:24
    */
   static updateTemplateStatus(params) {
@@ -73,7 +73,7 @@ export class ThemeTemplateApi {
   /**
    * 查询主题模板详情
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/20 11:53:17
    */
   static detail(params) {

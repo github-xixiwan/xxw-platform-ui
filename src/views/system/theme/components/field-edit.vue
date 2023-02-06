@@ -93,7 +93,7 @@
   /**
    * 保存和修改属性
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/27 11:43:02
    */
   const save = () => {
@@ -138,7 +138,7 @@
   /**
    * 更新编辑界面弹框是否显示
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/6/14 20:24
    */
   const updateVisible = (value: boolean) => {

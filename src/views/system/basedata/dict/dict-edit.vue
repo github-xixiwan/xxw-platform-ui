@@ -127,7 +127,7 @@
   /**
    * 监听业务类型选择
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2022/5/9 22:24
    */
   const handleChange = (value: number) => {
@@ -141,7 +141,7 @@
   /**
    * 保存和编辑
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/7 11:00
    */
   const save = () => {
@@ -174,7 +174,7 @@
    * 更新编辑菜单界面的弹框是否显示
    *
    * @param value true-显示，false-隐藏
-   * @author jiawei
+   * @author liaoxiting
    * @date 2021/4/7 12:00
    */
   const updateVisible = (value: boolean) => {

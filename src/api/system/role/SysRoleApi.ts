@@ -3,14 +3,14 @@ import { defHttp } from '/@/utils/http/axios';
 /**
  * 角色管理api
  *
- * @author chenjinlong
+ * @author liaoxiting
  * @date 2021/4/1 16:06
  */
 export class SysRoleApi {
   /**
    * 分页获取角色列表
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static findPage(params) {
@@ -20,7 +20,7 @@ export class SysRoleApi {
   /**
    * 新增
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static add(params) {
@@ -30,7 +30,7 @@ export class SysRoleApi {
   /**
    * 删除
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static del(params) {
@@ -40,7 +40,7 @@ export class SysRoleApi {
   /**
    * 修改
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static edit(params) {
@@ -50,7 +50,7 @@ export class SysRoleApi {
   /**
    * 角色分配菜单
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/11 10:42
    */
   static async grantMenu(params) {
@@ -63,7 +63,7 @@ export class SysRoleApi {
   /**
    * 角色分配按钮
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/11 10:42
    */
   static async grantButton(params) {
@@ -76,7 +76,7 @@ export class SysRoleApi {
   /**
    * 分配接口
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/10 18:31
    */
   static async grantResource(params) {
@@ -89,7 +89,7 @@ export class SysRoleApi {
   /**
    * 分配数据范围
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static async grantDataScope(params) {
@@ -102,7 +102,7 @@ export class SysRoleApi {
   /**
    * 角色绑定或取消绑定菜单和按钮
    *
-   * @author chenjinlong
+   * @author liaoxiting
    * @date 2021/4/1 16:07
    */
   static async grantMenusAndButtons(params) {

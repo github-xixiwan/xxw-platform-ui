@@ -95,7 +95,7 @@
   /**
    * 获取搜索框焦点时，获取所有的主题模板
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/29 10:08:31
    */
   const getThemeTemplates = async () => {
@@ -119,7 +119,7 @@
    * 点击选择模板时，查询系统模板详情
    *
    * @param value 模板id
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/29 10:33:06
    */
   const getThemeAttributes = (value: any) => {
@@ -131,7 +131,7 @@
    *
    * @param info 组件回调原有参数
    * @param fieldCode 文件表单字段名称
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/12/29 14:25:18
    */
   const handleFileChange = (info: any, fieldCode: any) => {

@@ -1,5 +1,5 @@
 <template>
-  <div class="guns-body guns-body-card">
+  <div class="xxw-body xxw-body-card">
     <a-row :gutter="16">
       <a-col :lg="6" :md="8" :sm="24" :xs="24">
         <a-card :bordered="false" class="table-height">
@@ -13,7 +13,7 @@
           <div class="user-info-list">
             <div class="ele-cell">
               <user-outlined />
-              <div class="ele-cell-content">stylefeng开源技术</div>
+              <div class="ele-cell-content">xxw开源技术</div>
             </div>
             <div class="ele-cell">
               <home-outlined />
@@ -27,7 +27,7 @@
           <a-divider dashed />
           <h6>标签</h6>
           <div class="user-info-tags">
-            <a-tag>Guns</a-tag>
+            <a-tag>Xxw</a-tag>
             <a-tag>Roses</a-tag>
             <a-tag>Spring Boot</a-tag>
           </div>
@@ -213,7 +213,7 @@
   /**
    * 更新个人信息
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/13 17:50
    */
   const save = () => {
@@ -237,7 +237,7 @@
   /**
    * 头像裁剪完成回调
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/4/13 17:50
    */
   const onCrop = async (blob) => {

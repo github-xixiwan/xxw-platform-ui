@@ -56,7 +56,7 @@
         <a-form-item>
           <template #label>
             <a-tooltip
-              title="菜单的显示类型，目前Guns系统分前台菜单和后台菜单，通过右上角个人头像图标进行切换。前台菜单：可以添加一些用户的业务菜单，后台菜单：例如Guns的角色管理，菜单管理，定时任务等这些可以设置为后台菜单。"
+              title="菜单的显示类型，目前Xxw系统分前台菜单和后台菜单，通过右上角个人头像图标进行切换。前台菜单：可以添加一些用户的业务菜单，后台菜单：例如Xxw的角色管理，菜单管理，定时任务等这些可以设置为后台菜单。"
             >
               <question-circle-outlined style="vertical-align: -2px; margin-right: 4px" />
             </a-tooltip>

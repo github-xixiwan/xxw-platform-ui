@@ -6,7 +6,7 @@ import JSEncrypt from 'jsencrypt';
 const publicKey = `MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCochIaKWEh6IIK1pJQcJPsYhZ2AJmGNc12XeC2lsj3dHkMO9vGrXN4ZJiN3qNLlO3hERtY0UZdN8Uz18zoiL60XoOclMuuwf1TwiMA3/4Vy2NOaQdX/RgLQ8XiRobVPLMe/JTteZ6eoPrWVC5jf4kdWD7LWwgdWrnzGs/4UiWnsQIDAQAB`;
 
 /**
- * @author: nxy
+ * @author: liaoxiting
  * @Date: 2022-10-10 14:18:30
  * @param {*} value 验证邮箱是否正确
  */
@@ -16,7 +16,7 @@ export function emailReg(value: string | number) {
 }
 
 /**
- * @author: nxy
+ * @author: liaoxiting
  * @Date: 2022-10-10 14:19:06
  * @param {*} value 验证手机号是否正确
  */
@@ -26,7 +26,7 @@ export function phoneReg(value: string | number) {
 }
 
 /**
- * @author: nxy
+ * @author: liaoxiting
  * @Date: 2022-10-11 14:15:35
  * @param {any} arr 菜单数组
  */
@@ -67,7 +67,7 @@ export function eachTreeData(data: any, callback: any, childKey = 'children') {
 /**
  * 删除空的children对象，为了显示树形菜单时不显示多余的 + 号
  *
- * @author fengshuonan
+ * @author liaoxiting
  * @date 2022/5/20 18:33
  */
 export function deleteEmptyChild(nodes: any) {
@@ -104,7 +104,7 @@ export function logout(route: boolean, from: any) {
 
 /**
  * rsa加密
- * @author: nxy
+ * @author: liaoxiting
  * @Date: 2022-10-16 21:53:44
  */
 export function RsaEncry(data: any) {
@@ -117,7 +117,7 @@ export function RsaEncry(data: any) {
 
 /**
  * 判断当前数据是否存在当前数据
- * @author: nxy
+ * @author: liaoxiting
  * @Date: 2022-09-30 16:22:17
  * @param {*} arr 所有的数据
  * @param {*} name  tree中用于比较的值的名称

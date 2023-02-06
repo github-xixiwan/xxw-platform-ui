@@ -1,5 +1,5 @@
 <template>
-  <div class="guns-body">
+  <div class="xxw-body">
     <a-table
       :dataSource="dataSource"
       :columns="columns"
@@ -45,7 +45,7 @@
   /**
    * 处理选中组的事件
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/8 23:35
    */
   const checkedGroup = (event: any, record: any) => {
@@ -55,7 +55,7 @@
   /**
    * 处理选中的节点数据
    *
-   * @author fengshuonan
+   * @author liaoxiting
    * @date 2021/8/8 23:35
    */
   const checkedItem = (checkedValue: any, record: any) => {
